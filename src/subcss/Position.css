@@ -1,0 +1,263 @@
+/* Wrapper 영역 */
+.position .nav{
+    display: flex;
+    gap: 30px;
+}
+
+.position .nav li a{
+    font-size: 1.5rem;
+    color: #ccc;
+    padding-bottom: 10px;
+    transition: all .5s ease-out;
+}
+
+.position .nav li:hover a{
+    color: #333;
+}
+.position .nav li a.active{
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+
+
+/* 공통 */
+.position{
+    margin-bottom: 100px;
+}
+.position p{
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.position .bottom{
+    padding-left: 0;
+    font-size: 1.1rem;
+    text-align: right;
+}
+.position .container{
+    width: 90%;
+    margin: 0 5%;
+    height: auto;
+    /* background: #ed4fed; */
+}
+
+.position .commonTit{
+    margin: 50px 0 100px;
+}
+
+.position .commonTit p:nth-child(1){
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.position .commonTit>p:nth-child(2),
+.position .commonTit>p:nth-child(3){
+    font-size: 1.2rem;
+    padding-left: 20px;
+    position: relative;
+}
+
+.position .commonTit>p:nth-child(2)::before,
+.position .commonTit>p:nth-child(3)::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.position .con{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.position .con h4::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #E1E16A;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -16px;
+    z-index: -1;
+}
+
+.position h4 {
+    font-size: 1.7rem;
+    padding-left: 20px;
+}
+
+.position h5{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.position span{
+    display: block;
+    padding-left: 50px;
+    color: #666;
+}
+.position .midTxt{
+    margin: 30px 0 10px;
+}
+.position .midTxt p{
+    font-weight: 500;
+}
+
+.position .conInimg{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+
+}
+.position .conInimg img{
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* position1영역 */
+
+.position .eqCon1 img{
+    width: 100%;
+    height: 400px;
+}
+
+/* eqCon2 영역 */
+.position .eqCon2 img{
+    width: 25%;
+    height: 400px;
+}
+
+/* eqCon3 영역 */
+.position .eqCon3 img{
+    width: 25%;
+    height: 400px;
+}
+
+/* eqCon4 영역 */
+.position .eqCon4 .con4In span{
+    padding-left: 50px;
+}
+.position .conBox{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.position .eqCon4 .conInimg{
+    width: 100%;
+    gap: 20px;
+    margin: 30px 0;
+}
+.position .eqCon4 .conInimg img{
+    width: 48%;
+    height: 400px;
+}
+
+/* eqCon5영역 */
+.position .eqCon5 img{
+    width: 25%;
+    height: 400px;
+}
+
+/* eqCon6영역 */
+.position .eqCon6 img{
+    width: 33.33%;
+    height: 400px;
+}
+/* position2영역 */
+.position .offerInner .areaImg{
+    width: 100%;
+}
+.position .offerInner .areaImg img{
+    width: 70%;
+    object-fit: cover;
+    object-position: center;
+}
+/* position3영역 */
+.position .offerInner .offerHead{
+    position: relative;
+}
+.position .offerInner .offerHead h4::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #E1E16A;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -11px;
+    z-index: -1;
+}
+
+.position .offerInner .offer {
+    margin: 30px 0 50px;
+}
+
+.position .offerInner .offer p {
+    text-align: center;
+}
+
+.position .offerInner .offer {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.position .offerInner .offer th,
+.position .offerInner .offer td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.position .offerInner .offer th {
+    text-align: center;
+    background-color: #dfdfdf;
+}
+.position .offerInner .offer .tdBox{
+    transform: translateY(20px);
+}
+.position .midTxt a span{
+    transition: color .3s;
+}
+.position .midTxt a:hover span{
+    color: #57B7F2;
+}
+
+@media screen and (max-width: 1280px){
+    .position .eqCon2 img,
+    .position .eqCon3 img,
+    .position .eqCon5 img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .position .conBox{
+        flex-wrap: wrap;
+        margin: 30px 0;
+    }
+    .position .eqCon4 .conInimg{
+        justify-content: space-between;
+        margin: 0;
+    }
+    .position .conInimg{
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .position .eqCon2 img,
+    .position .eqCon3 img,
+    .position .eqCon5 img{
+        width: 48%;
+    }
+    .position .offerInner .areaImg img{
+        width: 100%;
+    }
+}

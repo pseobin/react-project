@@ -1,0 +1,9 @@
+1. $npm i styled-components@latest 설치
+
+2. Styled.js / Position.css / Posistion.js / config -> Page-route.js 다운로드 및 덮어쓰기 
+
+3. 아래 이미지 1_js_img.png (Posistion.js) 처럼 맞춰서 안에 내용만 변경하시면 됩니다
+
+4. 자신의 컴퍼넌트.css 들어가서  2_css_img.png (Position.css) 처럼 맞춰서 안에 내용만 변경하시면 됩니다
+
+하시다가 잘 안되시면 카톡주세요

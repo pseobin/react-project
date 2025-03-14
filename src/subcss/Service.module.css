@@ -1,0 +1,42 @@
+
+.tabContainer{width: 90%;
+   /* height: auto; */
+   margin: 270px 5% auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.tabContainer h4{
+   font-size: 3rem; font-weight: 700; 
+}
+.serviceContainer {
+   padding: 20px;
+}
+
+.tabMenu {
+   display: flex;
+   list-style: none;
+   gap:30px;
+   border-bottom: 1px solid #333;
+   margin-top: 7%;
+   
+}
+
+.tabMenu li {
+   margin-right: 10px;
+   
+}
+
+.tabMenu button{
+   text-decoration: none;
+   background: none;
+   font-size: 1.5rem;
+   transition: all .5s ease-out;
+
+}
+
+.tabMenu .active {
+   color: #333;
+   border-bottom: 1px solid #333;
+}
