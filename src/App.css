@@ -10,8 +10,6 @@ nav a{font-size: 1.3rem; font-weight: 600;  display: block; text-decoration: non
 .active{color: #57B7F2;}
 header button{position: absolute; right: 20px;top:30px; cursor: pointer;background: none; display: none;}
 header button .ico{ font-size: 2rem; }
-
-header button{position: absolute; right: 10px; top: 12px; height: 50px; z-index:110 ; display: none;}
 header button span{
     width: 25px;
     height: 3px;
